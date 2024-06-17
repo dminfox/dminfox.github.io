@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/suspension.css">
     <!-- google web font css -->
     <!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
+	<script src="js/self.js"></script>
+	<script>
+		
+	</script>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
 
@@ -440,25 +444,6 @@
         });
 
     });
-</script>
-
-<!--禁止查看源码-->
-<script>
-    document.onkeydown = function () {
-        const e = window.event || arguments[0];
-        if (e.keyCode == 123) {
-            return false;
-        } else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
-            return false;
-        } else if ((e.ctrlKey) && (e.keyCode == 85)) {
-            return false;
-        } else if ((e.ctrlKey) && (e.keyCode == 83)) {
-            return false;
-        }
-    }
-    document.oncontextmenu = function () {
-        return false;
-    }
 </script>
 
 <script>
